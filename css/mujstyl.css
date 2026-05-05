@@ -44,7 +44,7 @@ body {
 
 /* hlavni container */
 .container {
-    max-width: 900px;
+    max-width: 800px;
     width: 100%;
     margin: 28px auto;
     background-color: var(--surface);
@@ -411,7 +411,7 @@ footer {
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     .container {
         width: 100%;
         margin: 0;
