@@ -44,13 +44,14 @@ body {
 
 /* hlavni container */
 .container {
-    width: 820px;
+    max-width: 900px;
+    width: 100%;
     margin: 28px auto;
     background-color: var(--surface);
     border: 1px solid var(--border);
     display: flex;
     flex-direction: column;
-}
+} 
 
 /* status */
 .statusbar {
@@ -468,30 +469,29 @@ footer {
 
 @media (max-width: 480px) {
     body {
-        font-size: 13px;
+        font-size: 30px;
     }
 
-    .articles {
-        padding: 16px 14px;
+    article p {
+        font-size: 21px;
+        line-height: 1.85;
     }
 
     article h2 {
-        font-size: 16px;
+        font-size: 23px;
     }
 
-    header {
-        height: 80px;
+    article h3 {
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .articles {
+        padding: 28px 48px;
     }
 
-    header h3 {
-        font-size: 18px;
-    }
-
-    .statusbar .sb-right {
-        display: none;
-    }
-
-    .top-list {
-        grid-template-columns: repeat(2, 1fr);
+    .levy {
+        width: 180px;
     }
 }
