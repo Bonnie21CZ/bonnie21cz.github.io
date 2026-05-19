@@ -17,7 +17,7 @@
     --amber-dim:  #6a4820;
     --text:       #bfc4d0;
     --text-dim:   #66738f;
-    --text-muted: #333d54;
+    --text-muted: #687592;
 }
 
 /* zaklad */
@@ -410,7 +410,7 @@ footer {
     height: auto;
 }
 
-
+/* responzivita */
 @media (max-width: 800px) {
     .container {
         width: 100%;
